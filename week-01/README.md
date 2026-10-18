@@ -1,22 +1,25 @@
-# 🚀 Journey to Data & AI Engineer (Zero to Hero)
 
-Welcome to my learning and project repository! This space documents my hands-on daily tasks, lab assignments, and practical experiments as I master Python, cloud engineering, and Artificial Intelligence.
+# Azure Automated Deployment Script
 
----
-
-## 🛠️ Tech Stack & Focus Areas
-
-* **Programming & Automation:** Python (`requests`, CLI automation, scripting)
-* **Backend & APIs:** RESTful API integration, JSON parsing, error handling, and resiliency patterns (timeouts, retries).
-* **Cloud & DevOps:** Microsoft Azure Portal, Azure CLI, Key Vault, and Git/GitHub version control.
-* **Data & Analytics:** PostgreSQL, MySQL, and Microsoft Fabric foundations.
+This repository contains an automated deployment script written for Microsoft Azure. The script streamlines resource provisioning while adhering to cloud security best practices.
 
 ---
 
-## 📂 Repository Structure
+## 🚀 Features
+* **Automated Provisioning:** Quickly creates resource groups and storage accounts using the Azure CLI.
+* **Security First:** Designed with zero hardcoded credentials, secret keys, or passwords.
+* **Idempotent Teardown Ready:** Easily pair with cleanup commands to manage your cloud environment efficiently.
 
+---
+
+## 🛠️ Prerequisites
+Before running the script, ensure you have the following installed and configured:
+* [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+* Active Azure Subscription (logged in via `az login`)
+
+---
+
+## 📂 Project Structure
 ```text
-├── python basics/           # /variable,packages,function 
-├── rest and json/         # Python REST API exercises, error handling, and timeouts
-└── README.md           # Repository documentation
-└── python project 1          # Build a a project including json 
+├── deploy.sh       # Main Azure CLI deployment script
+└── README.md       # Project documentation
