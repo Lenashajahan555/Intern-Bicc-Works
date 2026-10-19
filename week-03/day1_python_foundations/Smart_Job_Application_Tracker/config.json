@@ -1,0 +1,12 @@
+{
+    "app_name":"Job Application Tracker",
+    "data_file":"application.json",
+     "logg": {
+        "filename": "app.log",
+        "level": "INFO"
+    },
+    "max_retries":3,
+    "timeouts":4.0,
+    "app_url":"https://jsonplaceholder.typicode.com"
+    
+}
