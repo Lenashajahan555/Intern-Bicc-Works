@@ -8,8 +8,10 @@ A production-grade Python utility designed to interface securely with Azure serv
 - **Strict Schema Enforcement:** Fails fast with explicit custom exceptions on malformed payloads.
 - **Structured Logging:** Zero print statements; completely auditable tracking via Python's standard `logging` library.
 
-##HOW TO RUN 
--create a python environment- python -m venv venv
--activate environments in windows-venv\Scripts\Activate
--install packages required -pip freeze >requirements.py
--run python main.py
+
+**##HOW TO RUN** 
+
+-**create a python environment**- python -m venv venv
+-**activate environments in windows**-venv\Scripts\Activate
+-**install packages required** -pip freeze >requirements.py
+-**run python**- main.py
