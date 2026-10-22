@@ -9,7 +9,7 @@ A production-grade Python utility designed to interface securely with Azure serv
 - **Structured Logging:** Zero print statements; completely auditable tracking via Python's standard `logging` library.
 
 
-**##HOW TO RUN** 
+
 
 -**create a python environment**- python -m venv venv
 -**activate environments in windows**-venv\Scripts\Activate
