@@ -1,4 +1,4 @@
-# 🚀 Journey to Data & AI Engineer (Zero to Hero)
+# 🚀 Journey to Data & AI Specialist (Zero to Hero)
 
 Welcome to my learning and project repository! This space documents my hands-on daily tasks, lab assignments, and practical experiments as I master Python, cloud engineering, and Artificial Intelligence.
 
