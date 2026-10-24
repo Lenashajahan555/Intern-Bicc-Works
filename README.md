@@ -17,6 +17,6 @@ Welcome to my learning and project repository! This space documents my hands-on 
 
 ```text
 ├── week1/         # Azure resource management and cloud security scripts    
-├── week2/      # Python REST API exercises, error handling, and timeouts
-└── week3/      #Python for AI and AI/GenAI Fundamentals
+├── week2 labs /      
+└── azure project/    
 └──  README.md          # Repository documentation
